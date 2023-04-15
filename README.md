@@ -1,5 +1,7 @@
 # hsv
 
+![Codecov](https://img.shields.io/codecov/c/github/jayber/hsv)
+
 ### Simple conversion of HSV color space to RGB
 
 A simple function [hsv_to_rgb](/src/lib.rs) to convert values in the HSV color space to RGB. I 

@@ -9,5 +9,6 @@ repository = "https://github.com/jayber/hsv"
 readme = "README.md"
 keywords = ["color", "hsv", "hsl", "rgb", "color-space"]
 categories = ["gui", "command-line-interface", "graphics"]
+documentation = "https://docs.rs/hsv"
 
 [dependencies]
