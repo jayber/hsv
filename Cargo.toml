@@ -1,0 +1,13 @@
+[package]
+name = "hsv"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A simple crate for converting HSV color space to RGB."
+homepage = "https://github.com/jayber/hsv"
+repository = "https://github.com/jayber/hsv"
+readme = "README.md"
+keywords = ["color", "hsv", "hsl", "rgb", "conversion", "color-space"]
+categories = ["gui", "command-line-interface", "graphics"]
+
+[dependencies]
