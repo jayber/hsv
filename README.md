@@ -9,6 +9,7 @@ created this crate
 because I couldn't find an existing one that worked for me, and, when I asked chatGPT how to convert
 HSV to RGB in Rust, it pointed me to a crate called hsv that didn't exist. Now it does.
 
+
 ### Instructions
 
 * One function `hsv_to_rgb` taking `hue: f64, saturation: f64, value: f64` and returning `u8, u8,
