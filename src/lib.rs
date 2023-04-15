@@ -18,9 +18,17 @@
 /// ```
 /// assert_eq!(hsv::hsv_to_rgb(0.0, 0.0, 1.0), (255, 255, 255));
 /// ```
+/// Red
+/// ```
+/// assert_eq!(hsv::hsv_to_rgb(0.0, 1.0, 1.0), (255, 0, 0));
+/// ```
 /// Green
 /// ```
 /// assert_eq!(hsv::hsv_to_rgb(120.0, 1.0, 1.0), (0, 255, 0));
+/// ```
+/// Blue
+/// ```
+/// assert_eq!(hsv::hsv_to_rgb(240.0, 1.0, 1.0), (0, 0, 255));
 /// ```
 pub fn hsv_to_rgb(hue: f64, saturation: f64, value: f64) -> (u8, u8, u8) {
     fn is_between(value: f64, min: f64, max: f64) -> bool {
